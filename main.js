@@ -126,102 +126,105 @@ nameContainer.appendChild(nameValue);
 
 ///////////////////////////////////////////////////////// PRODUCER
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const producerContainer = document.createElement ('div');
+newCard.appendChild(producerContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const producerKey = document.createElement('strong');
+producerKey.innerText = 'producer: ';
+producerContainer.appendChild(producerKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const producerValue = document.createElement('span')
+producerValue.innerText = champagne.producer;
+producerContainer.appendChild(producerValue);
 
 ///////////////////////////////////////////////////////// YOB
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const yobContainer = document.createElement ('div');
+newCard.appendChild(yobContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const yobKey = document.createElement('strong');
+yobKey.innerText = 'annat: ';
+yobContainer.appendChild(yobKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const yobValue = document.createElement('span')
+yobValue.innerText = champagne.yob;
+yobContainer.appendChild(yobValue);
 
 //////////////////////////////////////////////////////// CL
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const quantityContainer = document.createElement ('div');
+newCard.appendChild(quantityContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const quantityKey = document.createElement('strong');
+quantityKey.innerText = 'cl: ';
+quantityContainer.appendChild(quantityKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const quantityValue = document.createElement('span')
+quantityValue.innerText = champagne.quantity
+quantityContainer.appendChild(quantityValue);
 
 /////////////////////////////////////////////////////// GRADES
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const alcoholContainer = document.createElement ('div');
+newCard.appendChild(alcoholContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const alcoholKey = document.createElement('strong');
+alcoholKey.innerText = 'grades: ';
+alcoholContainer.appendChild(alcoholKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const alcoholValue = document.createElement('span')
+alcoholValue.innerText = champagne.alcohol;
+alcoholContainer.appendChild(alcoholValue);
 
 /////////////////////////////////////////////////////// VITE
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const viteContainer = document.createElement ('div');
+newCard.appendChild(viteContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const viteKey = document.createElement('strong');
+viteKey.innerText = 'vite: ';
+viteContainer.appendChild(viteKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const viteValue = document.createElement('span')
+viteValue.innerText = champagne.vite;
+viteContainer.appendChild(viteValue);
 
 //////////////////////////////////////////////////////// LOCATION
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const locationContainer = document.createElement ('div');
+newCard.appendChild(locationContainer);
 
-const nameKey = document.createElement('strong');
-nameKey.innerText = 'nome: ';
-nameContainer.appendChild(nameKey);
+const locationKey = document.createElement('strong');
+locationKey.innerText = 'location: ';
+locationContainer.appendChild(locationKey);
 
-const nameValue = document.createElement('span')
-nameValue.innerText = champagne.name;
-nameContainer.appendChild(nameValue);
+const locationValue = document.createElement('span')
+locationValue.innerText = champagne.location;
+locationContainer.appendChild(locationValue);
 
 ///////////////////////////////////////////////////////// CERTIFICATION
 
-const nameContainer = document.createElement ('div');
-newCard.appendChild(nameContainer);
+const certificationContainer = document.createElement ('div');
+newCard.appendChild(certificationContainer);
 
 const certificationKey = document.createElement('strong');
-certificationKey.innerText = 'nome: ';
-certificationContainer.appendChild(nameKey);
+certificationKey.innerText = 'certification: ';
+certificationContainer.appendChild(certificationKey);
 
 const certificationValue = document.createElement('span')
-certficationValue.innerText = champagne.certification;
+certificationValue.innerText = champagne.certification;
 certificationContainer.appendChild(certificationValue);
 
 /////////////////////////////////////////////////////////// PRICE
+
+
+
 
 const priceContainer = document.createElement ('div');
 newCard.appendChild(priceContainer);
 
 const priceKey = document.createElement('strong');
-priceKey.innerText = 'nome: ';
+priceKey.innerText = 'price: ';
 priceContainer.appendChild(priceKey);
 
 const priceValue = document.createElement('span')
